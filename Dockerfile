@@ -1,6 +1,6 @@
 FROM rocker/shiny
 
-COPY app.R /srv/shiny-server/app.R
+COPY app.R ./
 
 COPY shiny-customized.config /etc/shiny-server/shiny-server.conf
 
